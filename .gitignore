@@ -1,0 +1,14 @@
+# Visual Studio
+.vs/
+x64/
+Debug/
+Release/
+*.vcxproj.user
+
+# program output
+results.txt
+grayscale.png
+edges.png
+accumulator.png
+lines.png
+lines_*.png
