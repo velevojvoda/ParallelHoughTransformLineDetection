@@ -5,7 +5,7 @@ Line detection in images using the Hough transform, with a sequential and a para
 ## Pipeline
 | Phase | TBB construction |
 |---|---|
-| RGB → grayscale | `parallel_for` + `blocked_range` |
+| RGB -> grayscale | `parallel_for` + `blocked_range` |
 | Sobel edges | `parallel_for` + `blocked_range2d` |
 | Hough acumulator | `parallel_reduce` |
 | Line detection | `parallel_for` + `concurrent_vector` |
